@@ -48,8 +48,12 @@ const Mission: NextPage = () => {
               <img className={styles.omnicatIcon} alt="" src="/omnicat.svg" />
             </div>
             <div className={styles.column1}>
-              <b className={styles.link3}>Mission</b>
-              <b className={styles.link3}>Terminal</b>
+            <a href="https://missionpage.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>
+  Mission
+</a>
+            <a href="https://exp-terminal.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>
+  Terminal
+</a>
               <b className={styles.link3}>Ecosystem</b>
               <b className={styles.link3}>Statistics</b>
             </div>
